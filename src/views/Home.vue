@@ -1,17 +1,10 @@
 <template>
-  <div>
-    <navbar/>
-  </div>
+    <div id="app">
+      <h1>test</h1>
+        <img src="../assets/moon.png">
+        <img src="../assets/rat.png">
+    </div>
 </template>
 
 <script>
-import Navbar from '@/components/Navbar.vue';
-
-export default {
-  name: 'Home',
-  
-  components: {
-    Navbar
-  },
-};
 </script>

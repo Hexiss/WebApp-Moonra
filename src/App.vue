@@ -1,18 +1,24 @@
 <template>
-  <v-app>
-    <v-main>
-      <router-view/>
-    </v-main>
-  </v-app>
+
+  <header>
+    <div class="wrapper">
+      <nav>
+        <Navbar />
+      </nav>
+    </div>
+  </header>
+
+
+    <RouterView />
+
 </template>
 
-<script>
 
-export default {
-  name: 'App',
-
-  data: () => ({
-    
-    }),
-}
+<script setup>
+import { RouterLink, RouterView } from "vue-router";
+import Navbar from "@/components/Navbar.vue";
 </script>
+
+<style>
+@import "@/assets/base.css";
+</style>
