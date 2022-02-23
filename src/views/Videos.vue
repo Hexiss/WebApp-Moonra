@@ -1,14 +1,7 @@
 <template>
 <div>
-    <navbar/>
-<form class="searchbar">
-  <div class="searchbar-input">
-    <!-- Input -->
-    <input type="search" placeholder="Rechercher">
-    <!-- Clear button -->
-    <a href="#" class="searchbar-clear"></a>
-  </div>
-</form>
+    <navbar />
+</div>
 </template>
 
 <script>
