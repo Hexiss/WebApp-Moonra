@@ -19,6 +19,26 @@
           <a href="/videos" class="text-base font-medium text-gray-500 hover:text-gray-900"> Vidéos </a>
           <a href="/coaching" class="text-base font-medium text-gray-500 hover:text-gray-900"> Coaching </a>
           <a href="/moncompte" class="text-base font-medium text-gray-500 hover:text-gray-900"> Mon Compte </a>
+          <div>
+        <router-link to="/favoris">
+        <img class="mx-auto w-auto" src="@/assets/moon2.png" alt="">
+        </router-link>
+        </div>
+        <div>
+        <router-link to="/favoris">
+        <img class="mx-auto w-auto" src="@/assets/moon2.png" alt="">
+        </router-link>
+        </div>
+        <div>
+        <router-link to="/favoris">
+        <img class="mx-auto w-auto" src="@/assets/moon2.png" alt="">
+        </router-link>
+        </div>
+        <div>
+        <router-link to="/favoris">
+        <img class="mx-auto w-auto" src="@/assets/moon2.png" alt="">
+        </router-link>
+        </div>
 
         </PopoverGroup>
         <div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
