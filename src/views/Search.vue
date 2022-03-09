@@ -1,19 +1,18 @@
 <template>
 <div>
     <div>
-        <SearchBar />
-        <Button />
+        <SearchBar class="my-5"/>
     </div>
 
-    <div class="grid grid-cols-2">
+    <div class="grid grid-cols-2 gap-2">
     <div>
         <router-link to="#">
-            <img class="" src="@/assets/images/Videos.png" alt="">
+            <img class="largeur" src="@/assets/images/Videos.png" alt="">
         </router-link>
     </div>
     <div>
         <router-link to="#">
-            <img class="" src="@/assets/images/Podcasts.png" alt="">
+            <img class="largeur" src="@/assets/images/Podcasts.png" alt="">
         </router-link>
     </div>
     </div>
@@ -78,5 +77,7 @@ export default {
 </script>
 
 <style>
-
+    .largeur{
+        width: 100%;
+    }
 </style>

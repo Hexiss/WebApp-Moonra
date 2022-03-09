@@ -29,4 +29,6 @@ export default {
     input[type=text]:focus {
         outline: none;
     }
+
+    
 </style>
