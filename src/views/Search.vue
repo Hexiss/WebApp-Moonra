@@ -1,7 +1,7 @@
 <template>
 <div>
     <div>
-        
+        <SearchBar />
     </div>
 
     <div class="grid grid-cols-2">
@@ -66,8 +66,11 @@
 </template>
 
 <script>
+import SearchBar from "@/components/SearchBar.vue"
 export default {
-
+    components:{
+        SearchBar
+    }
 }
 </script>
 
