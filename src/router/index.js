@@ -24,9 +24,34 @@ const router = createRouter({
     component: () => import('../views/Coaching/Coaching.vue')
   },
   {
-    path: '/moncompte',
+    path: '/account',
     name: 'MonCompte',
-    component: () => import('../views/MonCompte/MonCompte.vue')
+    component: () => import('../views/Account/MonCompte.vue')
+  },
+  {
+    path: '/sign-up-step-2',
+    name: 'SignUpStep2',
+    component: () => import('../views/Account/SignUpCreditCard.vue')
+  },
+  {
+    path: '/account/account-pro',
+    name: 'AccountPro',
+    component: () => import('@/views/Account/AccountPro.vue')
+  },
+  {
+    path: '/account/account-pro-contents',
+    name: 'AccountProContents',
+    component: () => import('@/views/Account/AccountProContents.vue')
+  },
+  {
+    path: '/account/calendar',
+    name: 'AccountCalendar',
+    component: () => import('../views/Account/Calendar.vue')
+  },
+  {
+    path: '/account/pending-apointments',
+    name: 'PendingApointments',
+    component: () => import('../views/Account/PendingApointments.vue')
   },
   {
     path: '/favoris',

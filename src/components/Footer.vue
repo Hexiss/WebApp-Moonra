@@ -1,10 +1,10 @@
 <template>
     <div class="pt-12">
-        <footer id="footer" class="relative z-50 dark:bg-gray-900 pt-24">
+        <footer id="footer" class="relative z-50 dark:bg-gray-900 pt-0">
             <div class="border-t border-b border-gray-200 dark:border-gray-700 py-16">
                 <div class="mx-auto container px-4 xl:px-12 2xl:px-4">
                     <div class="lg:flex">
-                        <div class="w-full lg:w-1/2 mb-16 lg:mb-0 flex">
+                        <div class="w-full lg:w-1/2 mb-0 lg:mb-0 flex">
                             <div class="w-full lg:w-1/2 px-6">
                                 <ul>
                                     <li>
@@ -40,10 +40,10 @@
                     </div>
                 </div>
             </div>
-            <div class="py-16 flex flex-col justify-center items-center">
+            <div class="py-0 flex flex-col justify-center items-center">
                 <a href="javascript:void(0)">
                 </a>
-                <p class="mt-6 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">© 2022 Moonra by Holistic Popup</p>
+                <p class="mt-2 text-xs lg:text-sm leading-none text-gray-900 dark:text-gray-50">© 2022 Moonra by Holistic Popup</p>
             </div>
         </footer>
     </div>
@@ -84,4 +84,8 @@ export default {
 
 <style scoped>
 @import url("https://cdn.tuk.dev/dist/css/tailwind-v2.2.11.min.css");
+
+.mt-2 {
+padding-bottom: 10px!important;
+}
 </style>
