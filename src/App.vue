@@ -23,8 +23,14 @@ import Footer from "@/components/Footer.vue";
 <style>
 @import "@/assets/base.css";
 
+<<<<<<< HEAD
   .view {
     padding: 5% 10%;
   }
 
+=======
+.view{
+  height: 50vh;
+}
+>>>>>>> 60e6641ab5a9bfb4da6491d5a1e77be634111074
 </style>
