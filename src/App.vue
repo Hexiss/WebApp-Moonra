@@ -2,7 +2,7 @@
 
   <header>
     <Navbar />
-    <RouterView />
+    <RouterView class="view" />
 </header>
 
 <footer>
@@ -21,4 +21,9 @@ import Footer from "@/components/Footer.vue";
 
 <style>
 @import "@/assets/base.css";
+
+.view
+{
+  padding: 0 10%;
+}
 </style>

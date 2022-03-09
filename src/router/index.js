@@ -59,6 +59,12 @@ const router = createRouter({
     component: () => import('../components/login/ForgotPassword.vue')
   },
 
+  {
+    path: '/search',
+    name: 'search',
+    component: () => import('../views/Search.vue')
+  },
+
 ]
 })
 export default router
