@@ -51,8 +51,10 @@
             </transition>
           </Popover>
 
-          <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Pricing </a>
-          <a href="#" class="text-base font-medium text-gray-500 hover:text-gray-900"> Docs </a>
+          <a href="/podcasts" class="text-base font-medium text-gray-500 hover:text-gray-900"> Podcasts </a>
+          <a href="/videos" class="text-base font-medium text-gray-500 hover:text-gray-900"> Vidéos </a>
+          <a href="/coaching" class="text-base font-medium text-gray-500 hover:text-gray-900"> Coaching </a>
+          <a href="/moncompte" class="text-base font-medium text-gray-500 hover:text-gray-900"> Mon Compte </a>
 
           <Popover class="relative" v-slot="{ open }">
             <PopoverButton :class="[open ? 'text-gray-900' : 'text-gray-500', 'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500']">

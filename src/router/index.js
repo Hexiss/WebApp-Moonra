@@ -6,27 +6,27 @@ const router = createRouter({
   {
     path: '/',
     name: 'Home',
-    component: () => import('../views/Home.vue')
+    component: () => import('../views/Home/Home.vue')
   },
   {
     path: '/podcasts',
     name: 'Podscasts',
-    component: () => import('../views/Podcasts.vue')
+    component: () => import('../views/Podcasts/Podcasts.vue')
   },
   {
     path: '/videos',
     name: 'Vidéos',
-    component: () => import('../views/Videos.vue')
+    component: () => import('../views/Videos/Videos.vue')
   },
   {
     path: '/coaching',
     name: 'Coaching',
-    component: () => import('../views/Coaching.vue')
+    component: () => import('../views/Coaching/Coaching.vue')
   },
   {
     path: '/moncompte',
     name: 'MonCompte',
-    component: () => import('../views/MonCompte.vue')
+    component: () => import('../views/MonCompte/MonCompte.vue')
   },
   {
     path: '/favoris',
