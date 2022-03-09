@@ -1,24 +1,30 @@
 <template>
 
-  <header>
+  <div>
     <Navbar />
-    <RouterView />
-</header>
-
-<footer>
-<Footer />
-</footer>
+    <RouterView class="view" />
+    <Footer />
+  </div>
 
 </template>
 
 
-<script setup>
-import { RouterLink, RouterView } from "vue-router";
+<script>
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
-
+  export default {
+    components: {
+      Navbar,
+      Footer
+    }
+  }
 </script>
 
 <style>
 @import "@/assets/base.css";
+
+  .view {
+    padding: 5% 10%;
+  }
+
 </style>
