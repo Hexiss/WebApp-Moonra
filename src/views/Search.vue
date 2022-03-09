@@ -2,6 +2,7 @@
 <div>
     <div>
         <SearchBar />
+        <Button />
     </div>
 
     <div class="grid grid-cols-2">
@@ -67,9 +68,11 @@
 
 <script>
 import SearchBar from "@/components/SearchBar.vue"
+import Button from "@/components/Button.vue"
 export default {
     components:{
-        SearchBar
+        SearchBar,
+        Button
     }
 }
 </script>
