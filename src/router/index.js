@@ -29,6 +29,11 @@ const router = createRouter({
     component: () => import('../views/MonCompte/MonCompte.vue')
   },
   {
+    path: '/moncompte/account-pro',
+    name: 'MonCompte',
+    component: () => import('../views/MonCompte/AccountPro.vue')
+  },
+  {
     path: '/favoris',
     name: 'Favoris',
     component: () => import('../components/login/Login.vue')
@@ -58,7 +63,6 @@ const router = createRouter({
     name: 'forgot-password',
     component: () => import('../components/login/ForgotPassword.vue')
   }
-
 ]
 })
 export default router
