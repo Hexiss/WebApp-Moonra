@@ -103,7 +103,7 @@ const router = createRouter({
   {
     path: '/mood',
     name: 'mood',
-    component: () => import('../views/Mood.vue')
+ //   component: () => import('../views/Mood.vue')
   },
 
 ]
