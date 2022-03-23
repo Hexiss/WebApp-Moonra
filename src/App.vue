@@ -25,7 +25,6 @@ import Footer from "@/components/Footer.vue";
 
 .view {
     padding: 5% 10%;
-    min-height: 50vh;
     text-align: center;
   }
 

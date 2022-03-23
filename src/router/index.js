@@ -24,9 +24,19 @@ const router = createRouter({
     component: () => import('../views/Coaching/Coaching.vue')
   },
   {
+    path: '/settings',
+    name: 'Settings',
+    component: () => import('../views/Settings.vue')
+  },
+  {
     path: '/account',
     name: 'MonCompte',
     component: () => import('../views/Account/MonCompte.vue')
+  },
+  {
+    path: '/account-settings',
+    name: 'AccountSettings',
+    component: () => import('../views/Account/AccountSettings.vue')
   },
   {
     path: '/sign-up-step-2',
