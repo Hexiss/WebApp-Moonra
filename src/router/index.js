@@ -100,6 +100,12 @@ const router = createRouter({
     component: () => import('../views/Search.vue')
   },
 
+  {
+    path: '/mood',
+    name: 'mood',
+    component: () => import('../views/Mood.vue')
+  },
+
 ]
 })
 export default router
