@@ -1,23 +1,24 @@
 <template>
     <div class="container-w">
-        <h1>Mon compte professionnel</h1>
+        <h1>Création de compte</h1>
         <div class="sub-container">
             <div class="grid">
                 <input type="text" placeholder="Nom *" name="lastname">
-                <input type="text" placeholder="Prenom *"  name="firstname">
+                <input type="text" placeholder="Prénom *" name="firstname">
             </div>
-            <input type="email" name="email" placeholder="Email *">
-            <input type="text" name="phonenumber" placeholder="Numéro de téléphone *">
-            <input type="text" name="siret  " placeholder="SIRET *">
-
+            <input type="email" placeholder="Email *" name="email">
+            <input type="text" placeholder="Mot de passe *"  name="password">
             <div class="div-checkbox">
-                <input type="checkbox" name="saveInfos">
-                <label for="saveInfos">En cochant cette case j'accepte la politique de confidentialité, les CGU et CGV</label>
+                <input type="checkbox" name="stayLoggedIn">
+                <label for="stayLoggedIn">Rester connecté</label>
+            </div>
+            <div class="div-checkbox">
+                <input type="checkbox" name="CGU-CGV">
+                <label for="CGU-CGV">En cochant cette case j’accepte la politique de confidentialité, les CGU et les CGV</label>
             </div>
             <div class="validation">
-                <router-link to="/sign-up">
-                    <button class="button-w">Je m'inscris !</button>
-                </router-link>
+                <router-link to="/sign-up">J'ai déjà un compte. Se connecter</router-link>
+                <button class="button-w">Je m'inscris</button>
             </div>
         </div>
     </div>
@@ -30,6 +31,7 @@
         background-color: #61CFCC;
     }
 
+
     button {
         color: white;
         background-color: #1C535D;
@@ -40,7 +42,6 @@
         width: 70%;
         display: block;
         margin: 0 auto;
-        text-align: left;
     }
 
     input[type="text"], input[type="email"] {

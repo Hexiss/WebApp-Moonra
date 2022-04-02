@@ -30,8 +30,8 @@ const router = createRouter({
   },
   {
     path: '/account',
-    name: 'MonCompte',
-    component: () => import('../views/Account/MonCompte.vue')
+    name: 'AccountHome',
+    component: () => import('../views/Account/AccountHome.vue')
   },
   {
     path: '/account-settings',
@@ -39,9 +39,19 @@ const router = createRouter({
     component: () => import('../views/Account/AccountSettings.vue')
   },
   {
-    path: '/sign-up-step-2',
-    name: 'SignUpStep2',
-    component: () => import('../views/Account/SignUpCreditCard.vue')
+    path: '/sign-up',
+    name: 'SignUp',
+    component: () => import('../views/Account/SignUp.vue')
+  },
+  {
+    path: '/sign-in',
+    name: 'SignIn',
+    component: () => import('../views/Account/SignIn.vue')
+  },
+  {
+    path: '/payment',
+    name: 'Payment',
+    component: () => import('../views/Account/Payment.vue')
   },
   {
     path: '/account/account-pro',
@@ -62,6 +72,26 @@ const router = createRouter({
     path: '/account/pending-apointments',
     name: 'PendingApointments',
     component: () => import('../views/Account/PendingApointments.vue')
+  },
+  {
+    path: '/choose-subscription',
+    name: 'ChooseSubscription',
+    component: () => import('../views/Account/ChooseSubscription.vue')
+  },
+  {
+    path: '/premium-subscriptions',
+    name: 'Premium subscriptions',
+    component: () => import('../views/Account/PremiumSubscriptions.vue')
+  },
+  {
+    path: '/success-create-account',
+    name: 'Success create account',
+    component: () => import('../views/Account/SuccessCreateAccount.vue')
+  },
+  {
+    path: '/success-become-pro',
+    name: 'Success become pro',
+    component: () => import('../views/Account/SuccessBecomePro.vue')
   },
   {
     path: '/favoris',

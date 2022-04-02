@@ -1,22 +1,29 @@
 <template>
     <div class="container-w">
-        <h1>Mon compte professionnel</h1>
+        <h1>Paiement</h1>
         <div class="sub-container">
+            <label for="name">Nom sur la carte*</label>
+            <input type="text" name="name">
+            <label for="number">Numéro de carte*</label>
+            <input type="text" name="number">
             <div class="grid">
-                <input type="text" placeholder="Nom *" name="lastname">
-                <input type="text" placeholder="Prenom *"  name="firstname">
-            </div>
-            <input type="email" name="email" placeholder="Email *">
-            <input type="text" name="phonenumber" placeholder="Numéro de téléphone *">
-            <input type="text" name="siret  " placeholder="SIRET *">
+                <div>
+                    <label for="date">Date*</label>
+                    <input type="text" placeholder="MM/AA" name="date">
+                </div>
+                <div>
+                    <label for="CVV">CVV*</label>
+                    <input type="text"  name="CVV">
+                </div>
 
+            </div>
             <div class="div-checkbox">
                 <input type="checkbox" name="saveInfos">
-                <label for="saveInfos">En cochant cette case j'accepte la politique de confidentialité, les CGU et CGV</label>
+                <label for="saveInfos">Enregistrer mes informations pour la prise de rendez-vous</label>
             </div>
             <div class="validation">
                 <router-link to="/sign-up">
-                    <button class="button-w">Je m'inscris !</button>
+                    <button class="button-w">Je valide mon abonnement</button>
                 </router-link>
             </div>
         </div>
@@ -43,7 +50,11 @@
         text-align: left;
     }
 
-    input[type="text"], input[type="email"] {
+    label {
+        font-weight: bold;
+    }
+
+    input[type="text"] {
         display: block;
         border-radius: 50px;
         height: 3rem;
