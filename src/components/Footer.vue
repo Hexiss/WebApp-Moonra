@@ -7,8 +7,8 @@
               <h1 href="javascript:void(0)"> Envie de discuter ou nous rencontrer ?</h1>
             </div>
             <div class="info">
-            <a style="padding-right:150px" href="javascript:void(0)">Mail: yolo@gmail.com</a>
-            <a style="padding-right:150px" href="javascript:void(0)">Téléphone: 66 66 66 66 66</a>
+            <a style="padding-right:150px" href="javascript:void(0)">Par téléhpone: 06 06 06 06 06</a>
+            <a style="padding-right:150px" href="javascript:void(0)">Par mail: contact@hp.com</a>
             <a class="" href="javascript:void(0)">Nous contacter</a>
             </div>
           </div>
