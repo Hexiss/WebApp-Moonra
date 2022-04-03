@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-12">
+  <div>
     <footer id="footer" class="relative z-50 dark:bg-gray-900 pt-0 footercolor">
       <div class="border-t border-b border-gray-200 dark:border-gray-700 py-16">
         <div class="mx-auto container px-4 xl:px-12 2xl:px-4">

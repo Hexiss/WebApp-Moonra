@@ -23,10 +23,10 @@ import Footer from "@/components/Footer.vue";
 <style>
 @import "@/assets/base.css";
 
-  .view {
+  /* .view {
       padding: 5% 10%;
       text-align: center;
-  }
+  } */
 
   .container-w {
       height: calc(100vh - 120px);
