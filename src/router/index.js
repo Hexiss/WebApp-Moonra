@@ -44,6 +44,11 @@ const router = createRouter({
     component: () => import('../views/Settings.vue')
   },
   {
+    path: '/mood/journal',
+    name: 'Mood journal',
+    component: () => import('../views/Mood/Journal.vue')
+  },
+  {
     path: '/category/fitness',
     name: 'Fitness',
     component: () => import('../views/category/Fitness.vue')
