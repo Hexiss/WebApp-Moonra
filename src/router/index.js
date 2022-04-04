@@ -29,6 +29,11 @@ const router = createRouter({
     component: () => import('../views/Videos/Videos.vue')
   },
   {
+    path: '/videos/play',
+    name: 'Vidéos play',
+    component: () => import('../views/Videos/Play.vue')
+  },
+  {
     path: '/coaching',
     name: 'Coaching',
     component: () => import('../views/Coaching/Coaching.vue')
@@ -99,6 +104,11 @@ const router = createRouter({
     component: () => import('../views/Account/Payment.vue')
   },
   {
+    path: '/make-appointment',
+    name: 'Make appointment',
+    component: () => import('../views/Account/MakeAppointment.vue')
+  },
+  {
     path: '/account/account-pro',
     name: 'AccountPro',
     component: () => import('@/views/Account/AccountPro.vue')
@@ -137,6 +147,11 @@ const router = createRouter({
     path: '/success-become-pro',
     name: 'Success become pro',
     component: () => import('../views/Account/SuccessBecomePro.vue')
+  },
+  {
+    path: '/success-appointment',
+    name: 'Success making appointment',
+    component: () => import('../views/Account/SuccessAppointment.vue')
   },
   {
     path: '/favorites',
