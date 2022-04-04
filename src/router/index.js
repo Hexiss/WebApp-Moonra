@@ -129,9 +129,14 @@ const router = createRouter({
     component: () => import('../views/Account/SuccessBecomePro.vue')
   },
   {
-    path: '/favoris',
+    path: '/favorites',
     name: 'Favoris',
-    component: () => import('../components/login/Login.vue')
+    component: () => import('../views/Favorites.vue')
+  },
+  {
+    path: '/monitoring',
+    name: 'Monitoring',
+    component: () => import('../views/Monitoring.vue')
   },
   {
     path: '/suivi',
