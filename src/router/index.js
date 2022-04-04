@@ -14,6 +14,16 @@ const router = createRouter({
     component: () => import('../views/Podcasts/Podcasts.vue')
   },
   {
+    path: '/podcasts/play',
+    name: 'Podscasts play',
+    component: () => import('../views/Podcasts/Play.vue')
+  },
+  {
+    path: '/podcasts/list',
+    name: 'Podscasts liste',
+    component: () => import('../views/Podcasts/List.vue')
+  },
+  {
     path: '/videos',
     name: 'Vidéos',
     component: () => import('../views/Videos/Videos.vue')
