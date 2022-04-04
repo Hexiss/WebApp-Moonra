@@ -29,6 +29,41 @@ const router = createRouter({
     component: () => import('../views/Settings.vue')
   },
   {
+    path: '/category/fitness',
+    name: 'Fitness',
+    component: () => import('../views/category/Fitness.vue')
+  },
+  {
+    path: '/category/yoga',
+    name: 'Yoga',
+    component: () => import('../views/Category/Yoga.vue')
+  },
+  {
+    path: '/category/conseils',
+    name: 'Conseils bien-être',
+    component: () => import('../views/Category/Conseils.vue')
+  },
+  {
+    path: '/category/meditation',
+    name: 'Meditation',
+    component: () => import('../views/Category/Meditation.vue')
+  },
+  {
+    path: '/category/sophrologie',
+    name: 'Sophrologie',
+    component: () => import('../views/Category/Sophrologie.vue')
+  },
+  {
+    path: '/category/cartomancie',
+    name: 'Cartomancie',
+    component: () => import('../views/Category/Cartomancie.vue')
+  },
+  {
+    path: '/category/dev',
+    name: 'Developpement Personnel',
+    component: () => import('../views/Category/Dev.vue')
+  },
+  {
     path: '/account',
     name: 'AccountHome',
     component: () => import('../views/Account/AccountHome.vue')

@@ -1,18 +1,13 @@
 <template>
     <div>
         <div class="header">
-            <h1>Podcasts</h1>
+            <h1>Sophrologie</h1>
             <SearchBar/>
         </div>
         <div class="buttons-menu">
             <ul>
-                <li>Yoga</li>
-                <li>Conseils bien être</li>
-                <li>Méditation</li>
-                <li>Fitness</li>
-                <li>Sophrologie</li>
-                <li>Cartomancie</li>
-                <li>Développement personnel</li>
+                <li>Vidéos</li>
+                <li>Podcasts</li>
             </ul>
         </div>
 
@@ -151,7 +146,7 @@ export default {
 
     .container-w {
         height: 230vh;
-        background-image: url('../../assets/images/background-paon-podcasts.svg');
+        background-image: url('../../assets/images/background-paon-meditation.svg');
         background-position: 100% 100%;
         background-size: 100%;
         background-repeat: no-repeat;

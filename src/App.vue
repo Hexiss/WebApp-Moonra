@@ -28,9 +28,14 @@ import Footer from "@/components/Footer.vue";
       text-align: center;
   } */
 
+  h1,h2,h3 {
+    text-align: center;
+  }
+
   .container-w {
+      padding: 5% 10%;
       height: calc(100vh - 120px);
-      background-image: url('assets/images/pijeon.svg');
+      background-image: url('assets/images/paon.svg');
       background-position: 100% 100%;
       background-size: 15%;
       background-repeat: no-repeat;

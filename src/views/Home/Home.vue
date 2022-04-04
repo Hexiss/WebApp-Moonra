@@ -108,7 +108,7 @@
   }
 
   .container-end-page {
-    background-image: url('../../assets/images/background-pijeon.svg');
+    background-image: url('../../assets/images/background-paon-home.svg');
     background-position: 100% 100%;
     background-size: 100%;
     background-repeat: no-repeat;
