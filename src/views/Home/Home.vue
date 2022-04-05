@@ -89,7 +89,7 @@
       </div>
 
       <div class="image">
-        <ul class="therapist">
+        <ul>
           <li>
             <router-link to="/therapist">
               <img src="@/assets/images/therapist2.svg " alt="">
@@ -193,4 +193,5 @@
     margin: 3% 0;
     background: #FFA14D;
   }
+
 </style>
