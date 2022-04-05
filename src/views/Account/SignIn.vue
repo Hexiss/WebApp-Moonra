@@ -10,7 +10,9 @@
             </div>
             <div class="validation">
                 <router-link to="/sign-up">Je n'ai pas de compte. S'inscrire</router-link>
-                <button class="button-w">Je me connecte</button>
+                <router-link to="/">
+                    <button class="button-w">Je me connecte</button>
+                </router-link>
             </div>
         </div>
     </div>

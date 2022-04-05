@@ -42,13 +42,12 @@
                     </div>
                 </div>
                 <div class="image">
-                    <ul>
-                    <router-link to="/videos/play">
-                        <li><img src="@/assets/logos/image.svg " alt=""></li>
-                        <li><img src="@/assets/logos/image.svg " alt=""></li>
-                        <li><img src="@/assets/logos/image.svg " alt=""></li>
+                    <router-link to="/videos/play" class="grid">
+                        <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
+                        <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
+                        <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
+                        <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
                     </router-link>
-                    </ul>
                 </div>
             </div>
 
@@ -63,10 +62,11 @@
                     </div>
                 </div>
                 <div class="image">
-                    <router-link to="/videos/play">
-                        <li><img src="@/assets/logos/image.svg " alt=""></li>
-                        <li><img src="@/assets/logos/image.svg " alt=""></li>
-                        <li><img src="@/assets/logos/image.svg " alt=""></li>
+                    <router-link to="/videos/play" class="grid">
+                        <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
+                        <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
+                        <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
+                        <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
                     </router-link>
                 </div>
             </div>
@@ -82,10 +82,11 @@
                     </div>
                 </div>
                 <div class="image">
-                    <router-link to="/videos/play">
-                        <li><img src="@/assets/logos/image.svg " alt=""></li>
-                        <li><img src="@/assets/logos/image.svg " alt=""></li>
-                        <li><img src="@/assets/logos/image.svg " alt=""></li>
+                    <router-link to="/videos/play" class="grid">
+                        <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
+                        <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
+                        <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
+                        <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
                     </router-link>
                 </div>
             </div>
@@ -151,6 +152,7 @@ export default {
     .bloc-header {
         display: flex;
         justify-content: space-between;
+        margin: 3% 0;
     }
 
     .bloc-header-title > * {
@@ -168,6 +170,12 @@ export default {
         background-position: 100% 100%;
         background-size: 100%;
         background-repeat: no-repeat;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 24% 24% 24% 24%;
+        grid-gap: 0 1%;
     }
 
 </style>

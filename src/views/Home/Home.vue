@@ -89,13 +89,27 @@
       </div>
 
       <div class="image">
-        <ul>
-          <router-link to="/therapist">
-            <li><img src="@/assets/logos/image.svg " alt=""></li>
-            <li><img src="@/assets/logos/image.svg " alt=""></li>
-            <li><img src="@/assets/logos/image.svg " alt=""></li>
-            <li><img src="@/assets/logos/image.svg " alt=""></li>
-          </router-link>
+        <ul class="therapist">
+          <li>
+            <router-link to="/therapist">
+              <img src="@/assets/images/therapist2.svg " alt="">
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/therapist">
+              <img src="@/assets/images/video-player-exemple-4.svg " alt="">
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/therapist">
+              <img src="@/assets/images/therapist3.svg " alt="">
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/therapist">
+              <img src="@/assets/images/therapist4.svg " alt="">
+            </router-link>
+          </li>
         </ul>
       </div>
 

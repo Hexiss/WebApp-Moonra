@@ -36,6 +36,8 @@ export default {
     }
 
     .container-w {
+        display: grid;
+        align-items: center;
         background-color: #1C535D;
     }
 
