@@ -7,11 +7,15 @@
         <div class="format">
             <div class="videos">
                 <h2>Vidéos</h2>
-                <img src="@/assets/images/paon-videos.svg" alt="Paon">
+                <router-link to="/videos">
+                    <img src="@/assets/images/paon-videos.svg" alt="Paon">
+                </router-link>
             </div>
             <div class="podcasts">
                 <h2>Podcasts</h2>
-                <img src="@/assets/images/paon-videos.svg" alt="Paon">
+                <router-link to="/podcasts">
+                    <img src="@/assets/images/paon-videos.svg" alt="Paon">
+                </router-link>
             </div>
         </div>
         <div class="section-title">
@@ -21,32 +25,46 @@
         <div class="category">
             <div class="grid">
                 <div>
+                    <router-link to='/category/yoga'>
                     <h4>Yoga</h4>
                     <img src="@/assets/images/paon-category-yoga.svg" alt="Paon">
+                    </router-link>
                 </div>
                 <div>
+                    <router-link to="/category/fitness">
                     <h4>Fitness</h4>
                     <img src="@/assets/images/paon-category-fitness.svg" alt="Paon">
+                    </router-link>
                 </div>
                 <div>
+                    <router-link to="/category/conseils">
                     <h4>Conseils bien-être</h4>
                     <img src="@/assets/images/paon-category-conseils.svg" alt="Paon">
+                    </router-link>
                 </div>
                 <div>
+                    <router-link to="/category/sophrologie">
                     <h4>Sophrologie</h4>
                     <img src="@/assets/images/paon-category-sophrologie.svg" alt="Paon">
+                    </router-link>
                 </div>
                 <div>
+                    <router-link to="/category/cartomancie">
                     <h4>Cartomancie</h4>
                     <img src="@/assets/images/paon-category-cartomancie.svg" alt="Paon">
+                    </router-link>
                 </div>
                 <div>
+                    <router-link to="/category/dev">
                     <h4>Développement personnel</h4>
                     <img src="@/assets/images/paon-category-dev.svg" alt="Paon">
+                    </router-link>
                 </div>
                 <div>
+                    <router-link to="/category/meditation">
                     <h4>Méditation</h4>
                     <img src="@/assets/images/paon-category-meditation.svg" alt="Paon">
+                    </router-link>
                 </div>
             </div>
         </div>

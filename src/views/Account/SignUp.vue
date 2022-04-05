@@ -18,7 +18,9 @@
             </div>
             <div class="validation">
                 <router-link to="/sign-up">J'ai déjà un compte. Se connecter</router-link>
-                <button class="button-w">Je m'inscris</button>
+                <router-link to="/choose-subscription">
+                    <button class="button-w">Je m'inscris</button>
+                </router-link>
             </div>
         </div>
     </div>

@@ -1,67 +1,43 @@
 <template>
     <div class="contain">
-        <h1>Mood journal</h1>
+        <h1>Calendrier</h1>
         <span>2022</span>
         <div class="grid">
             <div class="calendars">
-                <router-link to="/mood/bodyscan">
-                    <img src="@/assets/images/mood-calendar-jan.svg" alt="">
-                </router-link>
+                <img src="@/assets/images/mood-calendar-events-1.svg" alt="">
             </div>
             <div class="calendars">
-                <router-link to="/mood/bodyscan">
-                <img src="@/assets/images/mood-calendar-fev.svg" alt="">
-                </router-link>
+                <img src="@/assets/images/mood-calendar-events-2.svg" alt="">
+            </div>
+            <div class="calendars params">
+                <img src="@/assets/images/mood-calendar-events-3.svg" alt="">
             </div>
             <div class="calendars">
-                <router-link to="/mood/bodyscan">
-                <img src="@/assets/images/mood-calendar-mars.svg" alt="">
-                </router-link>
-            </div>
-            <div class="calendars">
-                <router-link to="/mood/bodyscan">
                 <img src="@/assets/images/mood-calendar-avril.svg" alt="">
-                </router-link>
             </div>
             <div class="calendars">
-                <router-link to="/mood/bodyscan">
                 <img src="@/assets/images/mood-calendar-mai.svg" alt="">
-                </router-link>
             </div>
             <div class="calendars">
-                <router-link to="/mood/bodyscan">
                 <img src="@/assets/images/mood-calendar-juin.svg" alt="">
-                </router-link>
             </div>
             <div class="calendars">
-                <router-link to="/mood/bodyscan">
                 <img src="@/assets/images/mood-calendar-juillet.svg" alt="">
-                </router-link>
             </div>
             <div class="calendars">
-                <router-link to="/mood/bodyscan">
                 <img src="@/assets/images/mood-calendar-aout.svg" alt="">
-                </router-link>
             </div>
             <div class="calendars">
-                <router-link to="/mood/bodyscan">
                 <img src="@/assets/images/mood-calendar-sept.svg" alt="">
-                </router-link>
             </div>
             <div class="calendars">
-                <router-link to="/mood/bodyscan">
                 <img src="@/assets/images/mood-calendar-oct.svg" alt="">
-                </router-link>
             </div>
             <div class="calendars">
-                <router-link to="/mood/bodyscan">
                 <img src="@/assets/images/mood-calendar-nov.svg" alt="">
-                </router-link>
             </div>
             <div class="calendars">
-                <router-link to="/mood/bodyscan">
                 <img src="@/assets/images/mood-calendar-dec.svg" alt="">
-                </router-link>
             </div>
         </div>
     </div>
@@ -88,9 +64,13 @@
     }
     .grid {
         display: grid;
-        grid-template-columns: 24% 24% 24% 24%;
+        grid-template-columns: 32% 32% 32%;
         grid-gap: 0 1%;
         padding: 0 10%;
         margin: 2% 0;
+    }
+
+    .calendars img {
+        cursor: pointer;
     }
 </style>

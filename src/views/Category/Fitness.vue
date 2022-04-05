@@ -6,8 +6,12 @@
         </div>
         <div class="buttons-menu">
             <ul>
-                <li>Vidéos</li>
-                <li>Podcasts</li>
+                <router-link to="/videos">
+                    <li>Vidéos</li>
+                </router-link>
+                <router-link to="/podcasts">
+                    <li>Podcasts</li>
+                </router-link>
             </ul>
         </div>
 
@@ -24,7 +28,6 @@
                 </div>
                 <div class="image">
                     <ul>
-                    <li><img src="@/assets/logos/image.svg " alt=""></li>
                     <li><img src="@/assets/logos/image.svg " alt=""></li>
                     <li><img src="@/assets/logos/image.svg " alt=""></li>
                     <li><img src="@/assets/logos/image.svg " alt=""></li>
@@ -47,7 +50,6 @@
                     <li><img src="@/assets/logos/image.svg " alt=""></li>
                     <li><img src="@/assets/logos/image.svg " alt=""></li>
                     <li><img src="@/assets/logos/image.svg " alt=""></li>
-                    <li><img src="@/assets/logos/image.svg " alt=""></li>
                     </ul>
                 </div>
             </div>
@@ -64,7 +66,6 @@
                 </div>
                 <div class="image">
                     <ul>
-                    <li><img src="@/assets/logos/image.svg " alt=""></li>
                     <li><img src="@/assets/logos/image.svg " alt=""></li>
                     <li><img src="@/assets/logos/image.svg " alt=""></li>
                     <li><img src="@/assets/logos/image.svg " alt=""></li>

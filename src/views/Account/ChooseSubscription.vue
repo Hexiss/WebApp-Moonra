@@ -7,14 +7,18 @@
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error commodi debitis deserunt dolorem maxime doloribus quos eligendi accusamus repellat quam atque facilis obcaecati praesentium nisi eaque ad, dolorum distinctio hic?
                 </p>
-                <button class="button-w">Je choisis cette option</button>
+                <router-link to="/success-create-account">
+                    <button class="button-w">Je choisis cette option</button>
+                </router-link>
             </div>
             <div class="card-w">
                 <h2>Premium</h2>
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error commodi debitis deserunt dolorem maxime doloribus quos eligendi accusamus repellat quam atque facilis obcaecati praesentium nisi eaque ad, dolorum distinctio hic?
                 </p>
-                <button class="button-w">Je découvre les options</button>
+                <router-link to="/premium-subscriptions">
+                    <button class="button-w">Je découvre les options</button>
+                </router-link>
             </div>
       </div>
   </div>
@@ -38,7 +42,7 @@ export default {
 
     .container-w {
         color: #1C535D;
-        background-color: #6E74A5;
+        background-color: #C5C7DB;
     }
     
     .grid {

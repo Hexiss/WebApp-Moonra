@@ -15,31 +15,64 @@
 
       <div class="image">
         <ul>
-          <li><img src="@/assets/logos/image.svg " alt=""></li>
-          <li><img src="@/assets/logos/image.svg " alt=""></li>
-          <li><img src="@/assets/logos/image.svg " alt=""></li>
-          <li><img src="@/assets/logos/image.svg " alt=""></li>
-        </ul>
+          <li>
+            <router-link to ="/podcasts/play">
+              <img src="@/assets/logos/image.svg " alt="">
+            </router-link>
+          </li>
+          <li>
+            <router-link to ="/podcasts/play">
+              <img src="@/assets/logos/image.svg " alt="">
+            </router-link>
+          </li>
+          <li>
+            <router-link to ="/podcasts/play">
+              <img src="@/assets/logos/image.svg " alt="">
+            </router-link>
+            </li>
+          <li>
+            <router-link to ="/podcasts/play">
+              <img src="@/assets/logos/image.svg " alt="">
+            </router-link>
+          </li>
+          </ul>
       </div>
 
       <div class="flex">
         <div>
-        <img src="@/assets/logos/lune.svg " alt="">
+          <img src="@/assets/logos/lune.svg " alt="">
         </div>
         <div>
-        <h1 class="title" style="right:13px">Vidéos</h1>
+          <h1 class="title" style="right:13px">Vidéos</h1>
         </div>
         <div class="w-5/6">
-        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full button">Voir tout</button>
+          <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full button">Voir tout</button>
         </div>
       </div>
 
       <div class="image">
         <ul>
-          <li><img src="@/assets/logos/image.svg " alt=""></li>
-          <li><img src="@/assets/logos/image.svg " alt=""></li>
-          <li><img src="@/assets/logos/image.svg " alt=""></li>
-          <li><img src="@/assets/logos/image.svg " alt=""></li>
+          <li>
+            <router-link to="/videos/play">
+              <img src="@/assets/logos/image.svg " alt="">
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/videos/play">
+              <img src="@/assets/logos/image.svg " alt="">
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/videos/play">
+              <img src="@/assets/logos/image.svg " alt="">
+            </router-link>
+          </li>
+          <li>
+            <router-link to="/videos/play">
+              <img src="@/assets/logos/image.svg " alt="">
+            </router-link>
+          </li>
+
         </ul>
       </div>
 
@@ -57,10 +90,12 @@
 
       <div class="image">
         <ul>
-          <li><img src="@/assets/logos/image.svg " alt=""></li>
-          <li><img src="@/assets/logos/image.svg " alt=""></li>
-          <li><img src="@/assets/logos/image.svg " alt=""></li>
-          <li><img src="@/assets/logos/image.svg " alt=""></li>
+          <router-link to="/therapist">
+            <li><img src="@/assets/logos/image.svg " alt=""></li>
+            <li><img src="@/assets/logos/image.svg " alt=""></li>
+            <li><img src="@/assets/logos/image.svg " alt=""></li>
+            <li><img src="@/assets/logos/image.svg " alt=""></li>
+          </router-link>
         </ul>
       </div>
 

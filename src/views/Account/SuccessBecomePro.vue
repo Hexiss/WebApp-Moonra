@@ -3,9 +3,11 @@
       <h1>Félicitation !</h1>
       <h2>Votre compte sera bientôt pro !</h2>
       <h3>Vous allez recevoir un email prochainement pour valider votre inscription</h3>
-      <button class="button-w">
-          Retourner à l'accueil
-      </button>
+      <router-link to="/">
+        <button class="button-w">
+            Retourner à l'accueil
+        </button>
+      </router-link>
   </div>
 </template>
 

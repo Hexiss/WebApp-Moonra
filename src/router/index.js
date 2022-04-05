@@ -44,9 +44,29 @@ const router = createRouter({
     component: () => import('../views/Settings.vue')
   },
   {
+    path: '/therapist',
+    name: 'Therapist',
+    component: () => import('../views/Therapist/Therapist.vue')
+  },
+  {
     path: '/mood/journal',
     name: 'Mood journal',
     component: () => import('../views/Mood/Journal.vue')
+  },
+  {
+    path: '/mood/calendar',
+    name: 'Mood calendrier',
+    component: () => import('../views/Mood/Calendar.vue')
+  },
+  {
+    path: '/mood/trainings',
+    name: 'Entrainements',
+    component: () => import('../views/Mood/Trainings.vue')
+  },
+  {
+    path: '/mood/bodyscan',
+    name: 'Bodyscan',
+    component: () => import('../views/Mood/Bodyscan.vue')
   },
   {
     path: '/category/fitness',
@@ -107,6 +127,11 @@ const router = createRouter({
     path: '/payment',
     name: 'Payment',
     component: () => import('../views/Account/Payment.vue')
+  },
+  {
+    path: '/payment-appointment',
+    name: 'Payment appointment',
+    component: () => import('../views/Account/PaymentAppointment.vue')
   },
   {
     path: '/make-appointment',
@@ -205,8 +230,10 @@ const router = createRouter({
     name: 'mood',
  //   component: () => import('../views/Mood.vue')
   },
-
-]
+],
+scrollBehavior() {
+  return { top: 0 }
+}
 })
 export default router
 

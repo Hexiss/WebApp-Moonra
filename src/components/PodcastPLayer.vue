@@ -16,7 +16,9 @@
       <img src="@/assets/images/player-buttons.svg" alt="">
     </div>
     <div class="div-params">
-      <img src="@/assets/images/params.svg" alt="Paramètres">
+      <router-link to="/podcasts/list">
+        <img src="@/assets/images/params.svg" alt="Paramètres">
+      </router-link>
     </div>
   </div>
 </template>

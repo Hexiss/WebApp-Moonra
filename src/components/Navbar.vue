@@ -3,32 +3,32 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
       <div class="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
         <div class="flex justify-start lg:w-0 lg:flex-1">
-          <a href="/">
+          <router-link to="/">
             <span class="sr-only">Logo</span>
             <img class="h-8 w-auto sm:h-10" src="@/assets/logos/logo.svg  " alt="" />
-          </a>
+          </router-link>
         </div>
         <PopoverGroup as="nav" class="hidden md:flex space-x-10 test">
-          <a href="/podcasts" class="text-base font-medium text-gray-500 hover:text-gray-900"> Podcasts </a>
-          <a href="/videos" class="text-base font-medium text-gray-500 hover:text-gray-900"> Vidéos </a>
-          <a href="/coaching" class="text-base font-medium text-gray-500 hover:text-gray-900"> Coaching </a> 
+          <router-link to="/podcasts" class="text-base font-medium text-gray-500 hover:text-gray-900"> Podcasts </router-link>
+          <router-link to="/videos" class="text-base font-medium text-gray-500 hover:text-gray-900"> Vidéos </router-link>
+          <router-link to="/coaching" class="text-base font-medium text-gray-500 hover:text-gray-900"> Coaching </router-link> 
           <div>
-        <router-link to="/profil">
+        <router-link to="/account">
         <img src="@/assets/logos/profil.svg" alt="">
         </router-link>
         </div>
           <div>
-        <router-link to="/calendrier">
+        <router-link to="/monitoring">
         <img src="@/assets/logos/calendrier.svg" alt="">
         </router-link>
         </div>
         <div>
-        <router-link to="/rechercher">
+        <router-link to="/search">
         <img src="@/assets/logos/loop.svg" alt="">
         </router-link>
         </div>
         <div>
-        <router-link to="/favoris">
+        <router-link to="/favorites">
         <img src="@/assets/logos/heart.svg" alt="">
         </router-link>
         </div>

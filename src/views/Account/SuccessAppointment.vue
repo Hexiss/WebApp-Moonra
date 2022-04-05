@@ -2,9 +2,11 @@
   <div class="container-w">
       <h1>Félicitation !</h1>
       <h2>Un mail va vous être envoyé pour confirmer votre rendez-vous.</h2>
-      <button class="button-w">
-          Retourner à l'accueil
-      </button>
+      <router-link to="/">
+        <button class="button-w">
+            Retourner à l'accueil
+        </button>
+      </router-link>
   </div>
 </template>
 

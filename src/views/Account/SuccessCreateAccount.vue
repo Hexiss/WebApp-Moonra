@@ -2,9 +2,11 @@
   <div class="container-w">
       <h1>Félicitation !</h1>
       <h2>Votre compte vien d'être créé !</h2>
-      <button class="button-w">
-          Je découvre
-      </button>
+      <router-link to="/">
+        <button class="button-w">
+            Je découvre
+        </button>
+      </router-link>
   </div>
 </template>
 

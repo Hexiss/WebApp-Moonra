@@ -24,16 +24,24 @@
             <h2>Pour vous</h2>
             <div class="grid">
                 <div>
-                    <img src="@/assets/images/video-player-exemple-1.svg" alt="">
+                    <router-link to="/videos/play">
+                        <img src="@/assets/images/video-player-exemple-1.svg" alt="">
+                    </router-link>
                 </div>
                 <div>
-                    <img src="@/assets/images/video-player-exemple-2.svg" alt="">
+                    <router-link to="/videos/play">
+                        <img src="@/assets/images/video-player-exemple-2.svg" alt="">
+                    </router-link>                
                 </div>
                 <div>
-                    <img src="@/assets/images/video-player-exemple-3.svg" alt="">
+                    <router-link to="/videos/play">
+                        <img src="@/assets/images/video-player-exemple-3.svg" alt="">
+                    </router-link>                
                 </div>
                 <div>
-                    <img src="@/assets/images/video-player-exemple-4.svg" alt="">
+                    <router-link to="/videos/play">
+                        <img src="@/assets/images/video-player-exemple-4.svg" alt="">
+                    </router-link>                
                 </div>
             </div>
         </div>
@@ -59,6 +67,10 @@
     .player-buttons {
         background-color: #61CFCC;
     }
+
+        .player-buttons img {
+            cursor: pointer;
+        }
 
         .player img {
             display: block;

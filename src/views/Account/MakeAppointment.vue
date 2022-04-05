@@ -20,7 +20,7 @@
             <input type="text" placeholder="Jeudi 15 mars">
 
             <div class="validation">
-                <router-link to="/sign-up">
+                <router-link to="/payment-appointment">
                     <button class="button-w">Je valide mon créneau</button>
                 </router-link>
             </div>

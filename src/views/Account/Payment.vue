@@ -22,7 +22,7 @@
                 <label for="saveInfos">Enregistrer mes informations pour la prise de rendez-vous</label>
             </div>
             <div class="validation">
-                <router-link to="/sign-up">
+                <router-link to="/success-become-pro">
                     <button class="button-w">Je valide mon abonnement</button>
                 </router-link>
             </div>

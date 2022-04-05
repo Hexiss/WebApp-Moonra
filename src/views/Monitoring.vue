@@ -2,17 +2,20 @@
     <div>
 
         <div class="container-w">
-            
-            <div class="item mood">
-            </div>
+                <router-link to="/mood/journal">
+                <div class="item mood">
+                </div>
+                </router-link> 
 
-            <div class="item calendar">
-            </div>
+                <router-link to="/mood/calendar">
+                <div class="item calendar">
+                </div>
+                </router-link>
 
-            <div class="item training">
-            </div>
-
-
+                <router-link to="/mood/trainings">
+                <div class="item training">
+                </div>
+                </router-link>
         </div>
     </div>
 </template>
@@ -62,6 +65,10 @@ export default {
         background-image: url('../assets/images/background-card-training-monitoring.svg');
         background-size: 100%;
         background-repeat: no-repeat;
+    }
+
+    .item {
+        height: 100%;
     }
 
 </style>

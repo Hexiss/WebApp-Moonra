@@ -6,13 +6,27 @@
         </div>
         <div class="buttons-menu">
             <ul>
-                <li>Yoga</li>
-                <li>Conseils bien être</li>
-                <li>Méditation</li>
-                <li>Fitness</li>
-                <li>Sophrologie</li>
-                <li>Cartomancie</li>
-                <li>Développement personnel</li>
+                <router-link to='/category/yoga'>
+                    <li>Yoga</li>
+                </router-link>
+                <router-link to="/category/conseils">
+                    <li>Conseils bien être</li>
+                </router-link>
+                <router-link to="/category/meditation">
+                    <li>Méditation</li>
+                </router-link>
+                <router-link to="/category/fitness">
+                    <li>Fitness</li>
+                </router-link>
+                <router-link to="/category/sophrologie">
+                    <li>Sophrologie</li>
+                </router-link>
+                <router-link to="/category/cartomancie">
+                    <li>Cartomancie</li>
+                </router-link>
+                <router-link to="/category/dev">
+                    <li>Développement personnel</li>
+                </router-link>
             </ul>
         </div>
 
@@ -29,10 +43,11 @@
                 </div>
                 <div class="image">
                     <ul>
-                    <li><img src="@/assets/logos/image.svg " alt=""></li>
-                    <li><img src="@/assets/logos/image.svg " alt=""></li>
-                    <li><img src="@/assets/logos/image.svg " alt=""></li>
-                    <li><img src="@/assets/logos/image.svg " alt=""></li>
+                    <router-link to="/videos/play">
+                        <li><img src="@/assets/logos/image.svg " alt=""></li>
+                        <li><img src="@/assets/logos/image.svg " alt=""></li>
+                        <li><img src="@/assets/logos/image.svg " alt=""></li>
+                    </router-link>
                     </ul>
                 </div>
             </div>
@@ -48,12 +63,11 @@
                     </div>
                 </div>
                 <div class="image">
-                    <ul>
-                    <li><img src="@/assets/logos/image.svg " alt=""></li>
-                    <li><img src="@/assets/logos/image.svg " alt=""></li>
-                    <li><img src="@/assets/logos/image.svg " alt=""></li>
-                    <li><img src="@/assets/logos/image.svg " alt=""></li>
-                    </ul>
+                    <router-link to="/videos/play">
+                        <li><img src="@/assets/logos/image.svg " alt=""></li>
+                        <li><img src="@/assets/logos/image.svg " alt=""></li>
+                        <li><img src="@/assets/logos/image.svg " alt=""></li>
+                    </router-link>
                 </div>
             </div>
 
@@ -68,12 +82,11 @@
                     </div>
                 </div>
                 <div class="image">
-                    <ul>
-                    <li><img src="@/assets/logos/image.svg " alt=""></li>
-                    <li><img src="@/assets/logos/image.svg " alt=""></li>
-                    <li><img src="@/assets/logos/image.svg " alt=""></li>
-                    <li><img src="@/assets/logos/image.svg " alt=""></li>
-                    </ul>
+                    <router-link to="/videos/play">
+                        <li><img src="@/assets/logos/image.svg " alt=""></li>
+                        <li><img src="@/assets/logos/image.svg " alt=""></li>
+                        <li><img src="@/assets/logos/image.svg " alt=""></li>
+                    </router-link>
                 </div>
             </div>
         </div>

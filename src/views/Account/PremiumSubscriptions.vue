@@ -10,7 +10,9 @@
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error commodi debitis deserunt dolorem maxime doloribus quos eligendi accusamus repellat quam atque facilis obcaecati praesentium nisi eaque ad, dolorum distinctio hic?
                 </p>
-                <button class="button-w">Je choisis cette option</button>
+                <router-link to="/account/account-pro">
+                    <button class="button-w">Je choisis cette option</button>
+                </router-link>
             </div>
             <div class="card-w">
                 <div class="card-header-w">
@@ -20,8 +22,9 @@
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error commodi debitis deserunt dolorem maxime doloribus quos eligendi accusamus repellat quam atque facilis obcaecati praesentium nisi eaque ad, dolorum distinctio hic?
                 </p>
-                <button class="button-w">Je choisis cette option</button>
-            </div>
+                <router-link to="/account/account-pro">
+                    <button class="button-w">Je choisis cette option</button>
+                </router-link>            </div>
             <div class="card-w">
                 <div class="card-header-w">
                     <h2>Gold</h2>
@@ -30,7 +33,9 @@
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error commodi debitis deserunt dolorem maxime doloribus quos eligendi accusamus repellat quam atque facilis obcaecati praesentium nisi eaque ad, dolorum distinctio hic?
                 </p>
-                <button class="button-w">Je choisis cette option</button>
+                <router-link to="/account/account-pro">
+                    <button class="button-w">Je choisis cette option</button>
+                </router-link>
             </div>
       </div>
   </div>
@@ -54,7 +59,7 @@ export default {
 
     .container-w {
         color: #1C535D;
-        background-color: #6E74A5;
+        background-color: #C5C7DB;
     }
     
     .grid {
