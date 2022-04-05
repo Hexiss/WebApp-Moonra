@@ -46,7 +46,6 @@
                         <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
                         <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
                         <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
-                        <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
                     </router-link>
                 </div>
             </div>
@@ -66,7 +65,6 @@
                         <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
                         <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
                         <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
-                        <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
                     </router-link>
                 </div>
             </div>
@@ -83,7 +81,6 @@
                 </div>
                 <div class="image">
                     <router-link to="/videos/play" class="grid">
-                        <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
                         <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
                         <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
                         <li><img src="@/assets/images/video-miniature.svg " alt=""></li>
@@ -174,7 +171,7 @@ export default {
 
     .grid {
         display: grid;
-        grid-template-columns: 24% 24% 24% 24%;
+        grid-template-columns: 32% 32% 32%;
         grid-gap: 0 1%;
     }
 
