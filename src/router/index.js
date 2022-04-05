@@ -36,7 +36,7 @@ const router = createRouter({
   {
     path: '/coaching',
     name: 'Coaching',
-    component: () => import('../views/Coaching/Coaching.vue')
+    component: () => import('../views/Coaching.vue')
   },
   {
     path: '/settings',
