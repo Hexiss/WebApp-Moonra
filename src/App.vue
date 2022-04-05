@@ -56,4 +56,8 @@ import Footer from "@/components/Footer.vue";
       font-weight: bold;
   }
 
+  a {
+    color: inherit;
+  }
+
 </style>
