@@ -1,11 +1,11 @@
 <template>
-    <div class="container">
+    <div class="contain">
         <div>
             <h1>Bienvenue sur Moonra</h1>
             <router-link to="/sign-up">
                 <button class="sign-up button-w">Je m'inscris</button>
             </router-link>
-            <router-link to="sign-in">
+            <router-link to="/sign-in">
                 <button class="sign-in button-w">Je me connecte</button>
             </router-link>
         </div>
@@ -14,7 +14,7 @@
 </template>
 
 <style scoped>
-    .container {
+    .contain {
         background-color: #1C535D;
         background-image: url('../../assets/images/paon.svg');
         background-position: 100% 110%;
